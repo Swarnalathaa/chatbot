@@ -1,0 +1,416 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Good Morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howda",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "thanks... bye:)",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "greet, bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "what's the news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what's the news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is the news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is the news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is the current news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is the current news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "can you provide me with some interesting news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "can you provide me with the current news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "provide me the current news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is happening now",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "current news??",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "real time news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is the news in france?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "france",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "what's the news at Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "Italy",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "what is the current news in india",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "india",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "what's the current news in Germany?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Germany",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "can you provide me with the current news in sweden?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 44,
+            "end": 50,
+            "value": "sweden",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "can you provide me with the current news in finland",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 44,
+            "end": 51,
+            "value": "finland",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "current news in poland?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "poland",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "spain news",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "spain",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "germany news",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "germany",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "Norway news",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Norway",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "news in netherlands",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "netherlands",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "news in japan?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "japan",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "news in china",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "china",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "provide me with some news in denmark",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "denmark",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "provide me with some news in Belgium?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Belgium",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "provide me with some news in Belgium?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Belgium",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "News about sweden market?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "sweden",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "news about germany market",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "germany",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "can you provide me some news about italy market",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "italy",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "what is the current news in spain market?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 33,
+            "value": "spain",
+            "entity": "market"
+          }
+        ]
+      },
+      {
+        "text": "what is the real time news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what's the real time news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "can you provide me current news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "can you tell me the latest news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "tell me the latest news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what is the latest news?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what's the latest news",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "provide me real time news",
+        "intent": "inform",
+        "entities": []
+      }
+    ]
+  }
+}
